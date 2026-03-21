@@ -1,5 +1,9 @@
+/* this part will not show anything is the size of the screen is less then 1200 */
 @media screen and (max-width: 1200px) {
- #dekstop-nav{
+  #desktop-nav {
     display: none;
- }
+  }
+  #hamburger-nav {
+    display: flex;
+  }
 }
