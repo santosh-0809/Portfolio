@@ -10,7 +10,7 @@
   <body>
     <nav id="desktop-nav">
       <div class="logo">Santosh Naik</div>
-      <div class="nav-link">
+      <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Experience</a></li>
@@ -19,6 +19,7 @@
         </ul>
       </div>
     </nav>
+
     <nav id="hamburger-nav">
       <div class="logo">Santosh Naik</div>
       <div class="hamburger-menu">
@@ -38,48 +39,46 @@
 
     <section id="profile">
       <div class="section__pic-container">
-        <img src="images/profilee.jpeg" alt="Santosh Naik" />
+        <img src="./images/profilee.jpeg" alt="Santosh Naik" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
-        <br />
         <h1 class="title">Santosh Naik</h1>
-        <br />
         <p class="section__text__p2">Frontend Developer</p>
-        <br />
+
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('/images/Resume.pdf')"
+            onclick="window.open('./images/Resume.pdf')"
           >
             Download Resume
           </button>
+
           <button
             class="btn btn-color-1"
-            onclick="location.href = './#contact'"
+            onclick="location.href='./#contact'"
           >
-            Contact Info</button
-          ><br /><br />
+            Contact Info
+          </button>
         </div>
+
         <div id="socials-container">
           <img
-            src="/images/linkedIn.png"
-            width="40px"
-            height="40px"
+            src="./images/linkedIn.png"
+            width="40"
+            height="40"
             alt="My LinkedIn Profile"
             class="icon"
-            onclick="
-              location.href =
-                'https://www.linkedin.com/in/santosh-naik-79b03a31a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
-            "
+            onclick="location.href='https://www.linkedin.com/in/santosh-naik-79b03a31a'"
           />
+
           <img
-            src="/images/github.png"
-            width="40px"
-            height="40px"
+            src="./images/github.png"
+            width="40"
+            height="40"
             alt="My Github Profile"
             class="icon"
-            onclick="location.href = 'https://github.com/santosh-0809'"
+            onclick="location.href='https://github.com/santosh-0809'"
           />
         </div>
       </div>
@@ -88,6 +87,7 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
+
       <div class="section-container">
         <div class="section__pic-container">
           <img
@@ -96,27 +96,32 @@
             class="about-pic"
           />
         </div>
+
         <div class="about-details-container">
           <div class="about-containers">
+
             <div class="details-container">
               <img
-                src="/images/experience.png"
+                src="./images/experience.png"
                 alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
               <p>2+ Years <br />Frontend Development</p>
             </div>
+
             <div class="details-container">
               <img
-                src="/images/education.png"
+                src="./images/education.png"
                 alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
               <p>B.E. in Computer Engineering (Bachelors of Engineering)</p>
             </div>
+
           </div>
+
           <div class="text-container">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
@@ -128,134 +133,181 @@
               corrupti!
             </p>
           </div>
+
         </div>
       </div>
+
       <img
         src="./images/arrow.png"
         alt="Arrow Icon"
         class="icon arrow"
-        onclick="location.href = './#experience'"
+        onclick="location.href='./#experience'"
       />
     </section>
 
     <section id="experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
+
       <div class="experience-details-container">
         <div class="about-containers">
+
           <div class="details-container">
             <h2 class="experience-sub-title">Frontend Development</h2>
+
             <div class="article-container">
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>HTML</h3><p>Intermediate</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>CSS</h3><p>Intermediate</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>JavaScript</h3><p>Intermediate</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Java</h3>
-                  <p>Beginner</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>Java</h3><p>Beginner</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Python</h3>
-                  <p>Beginner</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>Python</h3><p>Beginner</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C</h3>
-                  <p>Beginner</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>C</h3><p>Beginner</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>C++</h3>
-                  <p>Beginner</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>C++</h3><p>Beginner</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>UI/UX</h3>
-                  <p>Experienced</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>UI/UX</h3><p>Experienced</p></div>
               </article>
+
               <article>
-                <img
-                  src="./images/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
+                <img src="./images/checkmark.png" class="icon" />
+                <div><h3>Git</h3><p>Intermediate</p></div>
               </article>
+
             </div>
           </div>
+
         </div>
       </div>
+
       <img
         src="./images/arrow.png"
-        alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href = './#projects'"
+        onclick="location.href='./#projects'"
       />
     </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/proj1.png"
+                alt="To Do List Project"
+                class="project-img"
+              />
+            </div>
+
+            <h2 class="experience-sub-title project-title">To Do List</h2>
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/santosh-0809/To-Do-List-2.0'"
+              >
+                Github
+              </button>
+
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://santosh-0809.github.io/To-Do-List-2.0/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <img
+        src="./images/arrow.png"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+
+      <div class="contact-info-upper-container">
+
+        <div class="contact-info-container">
+          <img
+            src="./images/email.png"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:naiksantosh2448@gmail.com">
+              naiksantosh2448@gmail.com
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./images/linkedin.png"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/santosh-naik-79b03a31a">
+              LinkedIn
+            </a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <p>Copyright &#169; 2026 Santosh Naik. All Rights Reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
